@@ -1,0 +1,31 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <title>background</title>
+        <rect x="-1" y="-1" width="82" height="82" id="canvas_background" fill="none"/>
+    </g>
+    <g>
+        <title>Layer 1</title>
+        <g id="surface1">
+            <path d="m77.49808,14.13088l-11.92308,-11.92308c-0.41731,-0.42104 -0.98738,-0.65577 -1.57981,-0.65577l-59.91346,0c-1.23329,0 -2.23558,1.00228 -2.23558,2.23558l0,71.83654c0,1.23329 1.00228,2.23558 2.23558,2.23558l71.83654,0c1.23329,0 2.23558,-1.00228 2.23558,-2.23558l0,-59.91346c0,-0.59242 -0.23473,-1.1625 -0.65577,-1.57981zm0,0" fill="rgb(44.705882%,63.921569%,98.823529%)" fill-rule="nonzero" id="svg_1" stroke="null"/>
+            <path d="m77.19038,14.5941l-11.92308,-11.77885c-0.41731,-0.41594 -0.98738,-0.64784 -1.57981,-0.64784l-23.99519,0l0,75.38462l35.91827,0c1.23329,0 2.23558,-0.99016 2.23558,-2.20853l0,-59.18871c0,-0.58526 -0.23473,-1.14844 -0.65577,-1.5607l0,0.00001zm0,0" fill="rgb(15.686275%,57.254902%,98.823529%)" fill-rule="nonzero" id="svg_2" stroke="null"/>
+            <path d="m67.01202,35.69119c0,-1.36841 -1.10094,-2.4805 -2.45564,-2.4805l-24.55638,0l0,44.64904l27.01202,0l0,-42.16854z" fill="rgb(87.45098%,89.411765%,91.764706%)" fill-rule="nonzero" id="svg_4" stroke="null"/>
+            <path d="m65.94099,33.51838l-52.18968,0c-1.43956,0 -2.60948,1.10443 -2.60948,2.46341l0,41.87794l57.40865,0l0,-41.87794c0,-1.35898 -1.16992,-2.46341 -2.60949,-2.46341z" fill="rgb(97.647059%,97.647059%,97.647059%)" fill-rule="nonzero" id="svg_3" stroke="null"/>
+            <path d="m57.02163,1.85973l-42.1875,0l0,22.65625c0,1.29297 1.05078,2.34375 2.34375,2.34375l37.5,0c1.29297,0 2.34375,-1.05078 2.34375,-2.34375l0,-22.65625zm0,0" fill="rgb(32.941176%,34.509804%,91.764706%)" fill-rule="nonzero" id="svg_8" stroke="null"/>
+            <path d="m40,2.16742l0,24.38461l14.0625,0c1.29297,0 2.34375,-1.02491 2.34375,-2.28606l0,-22.09856l-16.40625,0l0,0.00001zm0,0" fill="rgb(20.784314%,27.058824%,89.019608%)" fill-rule="nonzero" id="svg_9" stroke="null"/>
+            <text fill="#7f0000" stroke="null" stroke-width="0" stroke-opacity="null" x="27.23077" y="53.55204" id="svg_14" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" font-weight="bold">DATA</text>
+            <text fill="#7f0000" stroke="null" stroke-width="0" stroke-opacity="null" x="17.38462" y="74.47511" id="svg_16" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">IMPORTER</text>
+            <text stroke="null" transform="matrix(1,0,0,1.2687188386917114,0,-12.193117305636406) " fill="#7f0000" stroke-width="0" stroke-opacity="null" x="12.76923" y="43.76992" id="svg_17" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" font-weight="bold">BREAKPOINT</text>
+            <text fill="#7f0000" stroke="null" stroke-width="0" stroke-opacity="null" x="17.38462" y="64.93665" id="svg_19" font-size="8" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">EXPORTER/</text>
+            <defs>
+                <circle id="svg_30" cx="6" cy="6" r="5.5"/>
+            </defs>
+            <g id="svg_34"/>
+        </g>
+        <g stroke="null" id="svg_13">
+            <g stroke="null" transform="matrix(0.7889706036345387,0,0,0.7889706036345387,26.783871931461,20.29595416319625) " id="svg_10" fill-rule="evenodd" fill="none">
+                <path stroke="null" id="svg_11" d="m40.60346,34.02087l-0.89368,0.80874l-0.81051,-0.73348c-0.18387,-0.16639 -0.42301,-0.25853 -0.67099,-0.25853l-0.99801,0c-0.55228,0 -1,0.44771 -1,1l0,0.90315c0,0.28254 0.11952,0.55189 0.32901,0.74147l2.47879,2.24319c0.38092,0.34472 0.96109,0.34471 1.34201,-0.00003l2.66136,-2.40859c0.43887,0.78998 0.68883,1.69937 0.68883,2.66715c0,3.03757 -2.46243,5.5 -5.5,5.5c-3.03757,0 -5.5,-2.46243 -5.5,-5.5c0,-3.03757 2.46243,-5.5 5.5,-5.5c0.84986,0 1.6547,0.19276 2.37319,0.53693z" fill="#DB5860"/>
+                <polygon stroke="null" id="svg_12" points="44.23026883602142,33.89193868637085 39.70927274227142,37.98393774032593 37.23026883602142,35.740941524505615 37.23026883602142,34.83794164657593 38.228269934654236,34.83794164657593 39.71027219295502,36.17793798446655 43.2392715215683,32.98394155502319 44.23026883602142,32.98394155502319 " fill-rule="nonzero" fill="#6E6E6E"/>
+            </g>
+        </g>
+    </g>
+</svg>

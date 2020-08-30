@@ -1,0 +1,75 @@
+<idea-plugin>
+    <id>Breakpoint-Exporter-Importer</id>
+    <name>Breakpoint Exporter/Importer with variable information</name>
+    <version>1.5</version>
+    <vendor
+            email="csabag.laszlo@gmail.com"
+            url="https://github.com/csabagabor">
+        Csaba Gabor
+    </vendor>
+
+    <category>Debugging</category>
+
+    <description><![CDATA[
+
+
+<br>
+This plugin lets you <b>save variable information(variable names + values) and stack trace information from a breakpoint event
+ to a file which can be loaded later and you can navigate
+the stack frames and see variable values just like in a normal debugging session</b>
+<br>
+Also you can send the file to your colleagues and they can load it into their IDEs and they can see all the breakpoint's information
+ without going through the same debugging session as you.
+
+<br>
+<b>Manual (Help):</b>
+<br>
+<p>When a breakpoint is hit just <b>press the "File" icon</b> next to the "Evaluate Expression" button and select a path,
+ also select some options which are used to save the breakpoint</p>
+<br>
+<p>To <b>load</b> an existing breakpoint from a file, go to Tools -> Load Breakpoint From File</p>
+<br>
+<br>
+Credits:<br><br>
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+<br>
+Variable extraction is based on the code provided by https://github.com/cnhguy/FootPrint
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <p>1.5 (28-aug-2020)</p>
+        <ul>
+            <li>Initial version with Dialog to select variable extraction depth, number of collection items, number of fields to include. </li>
+        </ul>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="193"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <projectService serviceImplementation="gabor.breakpoint.debug.CoverageContext"/>
+        <editor.linePainter implementation="gabor.breakpoint.debug.view.decorator.VariableEditorLinePainter"/>
+        <projectService serviceImplementation="gabor.breakpoint.debug.view.HistoryToolWindowService"/>
+
+    </extensions>
+    <actions>
+        <action id="gabor.breakpoint.debug.action.SaveRecordingAction"
+                class="gabor.breakpoint.debug.action.SaveRecordingAction"
+                text="Save Breakpoint to File..." description="Save breakpoint to file..." icon="/icons/debug/save.svg">
+            <add-to-group group-id="XDebugger.ToolWindow.TopToolbar" anchor="after"
+                          relative-to-action="EvaluateExpression"/>
+        </action>
+        <action id="gabor.breakpoint.debug.action.LoadRecordingAction"
+                class="gabor.breakpoint.debug.action.LoadRecordingAction"
+                text="Load Breakpoint from File..." description="Load breakpoint from file..."
+                icon="/icons/debug/save.svg">
+            <add-to-group group-id="ToolsMenu" relative-to-action="GenerateJavadoc" anchor="after"/>
+        </action>
+    </actions>
+</idea-plugin>
