@@ -15,7 +15,6 @@ Also you can send the file to your colleagues and they can load it into their ID
  7. A new Tool Window will open up and you can navigate stack frames on the left hand side, and see variable information on the right hand side. Variable information also appears next to variables in the source code:
  ![history](/images/kep3.bmp) 
 
-> Source code will be available soon on Github.
 
 ## Credits:  
 Icons made by [https://www.flaticon.com/authors/freepik](https://www.flaticon.com/authors/freepik) on 
